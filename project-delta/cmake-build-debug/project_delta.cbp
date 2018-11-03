@@ -8,42 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/tim/CLionProjects/project-delta/cmake-build-debug"/>
+				<Option working_dir="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/tim/CLionProjects/project-delta/cmake-build-debug"/>
+				<Option working_dir="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/tim/CLionProjects/project-delta/cmake-build-debug"/>
+				<Option working_dir="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project_delta">
-				<Option output="/home/tim/CLionProjects/project-delta/cmake-build-debug/project_delta" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tim/CLionProjects/project-delta/cmake-build-debug"/>
+				<Option output="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/project_delta" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/media/sf_vmBackup/vmBackup/project-delta/."/>
+					<Add directory="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -54,19 +56,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_delta"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_delta"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project_delta/fast">
-				<Option output="/home/tim/CLionProjects/project-delta/cmake-build-debug/project_delta" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tim/CLionProjects/project-delta/cmake-build-debug"/>
+				<Option output="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/project_delta" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/media/sf_vmBackup/vmBackup/project-delta/."/>
+					<Add directory="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -77,17 +81,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_delta/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/tim/CLionProjects/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_delta/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tim/CLionProjects/project-delta/main.cpp">
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/CMakeLists.txt">
 			<Option target="project_delta"/>
 		</Unit>
-		<Unit filename="/home/tim/CLionProjects/project-delta/CMakeLists.txt">
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/CMakeCache.txt">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/Makefile">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/cmake_install.cmake">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/project_delta">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/project_delta.cbp">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/data.csv">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/main.cpp">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/project-delta.zip">
+			<Option target="project_delta"/>
+		</Unit>
+		<Unit filename="/media/sf_vmBackup/vmBackup/project-delta/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

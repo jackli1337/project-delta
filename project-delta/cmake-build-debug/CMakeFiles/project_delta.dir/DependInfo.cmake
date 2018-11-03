@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tim/CLionProjects/project-delta/main.cpp" "/home/tim/CLionProjects/project-delta/cmake-build-debug/CMakeFiles/project_delta.dir/main.cpp.o"
+  "/media/sf_vmBackup/vmBackup/project-delta/main.cpp" "/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/CMakeFiles/project_delta.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../."
+  "."
   )
 
 # Targets to which this target links.
