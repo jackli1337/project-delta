@@ -7,16 +7,21 @@
 using std::string;
 using std::vector;
 using std::cin;
+using std::cout;
 
 string line;
-string theseLine;
+string theseLines;
 vector<string> allLines;
 
 vector<string> readFromCSV(string filename){
     std::ifstream fileIn(filename);
     std::ofstream fileOut("credits.txt");
 
-    while(!fileIn.eof()){
+    if (!fileIn.is_open()) {
+            cout << "ERROR: Cannot Locate or Cannot Open File" << std::endl;
+    }
+
+    while(fileIn.peek() != EOF){
         getline(fileIn,line,'\n');
         allLines.push_back(line);
     }
@@ -76,7 +81,7 @@ vector<int> readLines(string lineNum){
 }
 
 int main() {
-    readFromCSV("data.csv");
-    cin >> theseLine;
-    readLines(theseLine);
+    readFromCSV("../data.csv");
+    cin >> theseLines;
+    readLines(theseLines);
 }
