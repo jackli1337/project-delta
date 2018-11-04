@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/sf_vmBackup/vmBackup/project-delta/main.cpp" "/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug/CMakeFiles/project_delta.dir/main.cpp.o"
+  "/media/sf_CSE250_vm_backup/project-delta/main.cpp" "/media/sf_CSE250_vm_backup/project-delta/cmake-build-debug/CMakeFiles/project_delta.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

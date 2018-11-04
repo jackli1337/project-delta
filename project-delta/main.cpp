@@ -12,8 +12,14 @@ using std::cout;
 string line;
 string theseLines;
 vector<string> allLines;
-
-vector<string> readFromCSV(string filename){
+/**
+ *
+ * @param filename
+ * a filename that we want to read data from to transfer to a document
+ *
+ * this method takes in a filename and will write each line of the file to a global vector
+ */
+void readFromCSV(string filename){
     std::ifstream fileIn(filename);
     std::ofstream fileOut("credits.txt");
 
@@ -26,7 +32,21 @@ vector<string> readFromCSV(string filename){
         allLines.push_back(line);
     }
 }
-
+/**
+ *
+ * @param divideThis
+ * a string that we want to get substrings of to either get numbers
+ * in between commas or numbers on either side of a dash
+ *
+ * @param delimiter
+ * character that you want to use to divide the string into substrings
+ * should only be a comma or dash but could be any character
+ *
+ * @return
+ * a vector of the substrings of the string that we want
+ * (either a vector of numbers that were in a comma separated list,
+ * or numbers that were on either side of a dash)
+ */
 vector<string> divideStr (string divideThis, char delimiter){
         vector<int> whereCommasAre;
         vector<string> subStr;
@@ -59,7 +79,13 @@ vector<string> divideStr (string divideThis, char delimiter){
         return subStr;
 }
 
-
+/**
+ *
+ * @param lineNum
+ * the line numbers that someone want to transfer to the document
+ * @return
+ * the line numbers in a vector converted to ints
+ */
 vector<int> readLines(string lineNum){
     vector<int> retVal;
     vector<string> allSubs = divideStr(lineNum, ',');

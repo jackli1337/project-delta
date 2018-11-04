@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/media/sf_vmBackup/vmBackup/project-delta/. -I/media/sf_vmBackup/vmBackup/project-delta/cmake-build-debug 
+CXX_INCLUDES = -I/media/sf_CSE250_vm_backup/project-delta/. -I/media/sf_CSE250_vm_backup/project-delta/cmake-build-debug 
 
