@@ -14,4 +14,5 @@ add_executable(project_delta
         cmake-build-debug/project_delta.cbp
         CMakeLists.txt
         data.csv
-        main.cpp)
+        main.cpp
+        project-delta.zip)
